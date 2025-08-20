@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Your Name</title>
+  <meta name="description" content="About the photographer / 3D artist." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="logo" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 17l5-7 4 5 3-4 6 8H3z" stroke="#66d9ef" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div>
+          <h1>Your Name</h1>
+          <div class="muted sub">Photography • 3D • Animals • Landscapes</div>
+        </div>
+      </a>
+      <nav class="mainnav muted">
+        <a href="index.html">Work</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer">Instagram</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 class="h2">About</h2>
+    <p class="muted">I’m <strong>Your Name</strong>, a photographer and 3D artist. I love chasing light across landscapes, waiting on wildlife, and building stylized scenes in Blender. My work balances documentary textures with playful, graphic shapes.</p>
+    <p class="muted">Tools I use: Sony A7C • 35mm/85mm primes • DJI Mini • Lightroom/Camera Raw • Photoshop • Blender • Cycles/Eevee.</p>
+
+    <div style="margin-top:20px; display:grid; gap:16px; grid-template-columns: repeat(12, 1fr);">
+      <img src="assets/about/portrait.jpg" alt="Portrait of Your Name" style="grid-column: span 5; width:100%; border-radius:16px; border:1px solid rgba(255,255,255,.08); object-fit:cover; min-height:220px;" />
+      <div style="grid-column: span 7;">
+        <h3 style="margin:0 0 8px;">Exhibits & Features</h3>
+        <ul class="muted" style="margin:0; padding-left:18px; line-height:1.8;">
+          <li>2025 — “Coastlines at Dusk”, Group Show, Local Gallery</li>
+          <li>2024 — “Urban Wildlife”, Solo Zine</li>
+          <li>2023 — Featured on ArtStation Explore</li>
+        </ul>
+
+        <h3 style="margin:18px 0 8px;">Selected Clients</h3>
+        <ul class="muted" style="margin:0; padding-left:18px; line-height:1.8;">
+          <li>Brand A — Outdoor apparel
+          <li>Studio B — Game assets
+          <li>Agency C — Editorial
+        </ul>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:20px;">For commissions, print requests, or collaborations, head to the <a href="contact.html">Contact</a> page.</p>
+
+    <footer>
+      <div class="footer-inner">
+        <small>© <span id="year"></span> Your Name. All rights reserved.</small>
+        <div class="socials">
+          <a class="iconbtn" href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
+          <a class="iconbtn" href="https://www.pinterest.com/yourhandle/" target="_blank" rel="noreferrer" aria-label="Pinterest">PT</a>
+          <a class="iconbtn" href="https://www.artstation.com/yourhandle" target="_blank" rel="noreferrer" aria-label="ArtStation">AS</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
