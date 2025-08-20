@@ -23,7 +23,7 @@ const CATEGORIES = [
 const PHOTOS = [
   // Landscapes
   { src: 'assets/landscapes/test1', alt: 'Sunrise over a lake', category: 'landscapes' },
-  { src: 'assets/landscapes/mountain-pass.jpg', alt: 'Clouds hugging a mountain pass', category: 'landscapes' },
+  { src: 'assets/landscapes/nerovane7-min.png', alt: 'Clouds hugging a mountain pass', category: 'landscapes' },
   // Animals
   { src: 'assets/animals/red-fox.jpg', alt: 'Red fox in the forest', category: 'animals' },
   { src: 'assets/animals/macaque.jpg', alt: 'Macaque portrait', category: 'animals' },
